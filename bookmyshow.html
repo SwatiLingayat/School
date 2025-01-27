@@ -1,0 +1,114 @@
+Designing a Basic BookMyShow-like Website with HTML and CSS
+BOOK MY SHOW
+HTML Structure (index.html):
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header>
+        <h1>BookMyShow</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#theatres">Theatres</a></li>
+                <li><a href="#account">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to BookMyShow</h2>
+        <p>Your one-stop shop for movies and entertainment.</p>
+    </section>
+
+    <section id="movies">
+        <h2>Now Showing</h2>
+        <div class="movie-card">
+            <img src="movie1.jpg" alt="Movie 1">
+            <h3>Movie 1</h3>
+            <p>A thrilling adventure.</p>
+            <a href="#">Book Tickets</a>
+        </div>
+        </section>
+
+    <section id="theatres">
+        <h2>Theatres Near You</h2>
+        <ul>
+            <li>Theatre 1</li>
+            <li>Theatre 2</li>
+            <li>Theatre 3</li>
+        </ul>
+    </section>
+
+    <section id="account">
+        <h2>My Account</h2>
+        <p>Login or Register to manage your bookings and preferences.</p>
+        <a href="#">Login</a> | <a href="#">Register</a>
+    </section>
+
+    <footer>
+        <p>© 2023 BookMyShow</p>
+    </footer>
+</body>
+</html>
+
+
+CSS Styling (style5.css):
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.movie-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+Key Features Simulated:
+Home Page: Welcomes users and provides a brief overview.
+Movies Section: Displays a list of currently playing movies with basic details and a "Book Tickets" button.
+Theatres Section: Lists nearby theaters.
+Account Section: Provides links to login and registration pages.
+
